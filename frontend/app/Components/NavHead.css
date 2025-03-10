@@ -1,0 +1,28 @@
+.NaveFirstDiv {
+  @apply flex items-center justify-center overflow-hidden whitespace-nowrap w-full border-b-2;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.scroll-text {
+  display: flex;
+  white-space: nowrap;
+  animation: scrollText 25s linear infinite;
+}
+
+.scroll-text span {
+  display: inline-block;
+  padding-right: 2rem; /* Space between duplicated text */
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.NaveSecDiv {
+  @apply flex items-center justify-center w-full border-b-2;
+  font-family: "Lexend Mega", sans-serif;
+}
